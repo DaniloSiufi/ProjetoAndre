@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    background-color: #18284e;
+}
+
+.login.box {
+    background-color: #ffffff;
+    width: 500px;
+    left: calc(50% - 250px);
+    display: flex;
+    position: relative;
+    height: 410px;
+    top: calc(50% - 205px);
+    border-radius: 5px;
+}
+
+.part {
+    height: 100%;
+    width: 50%;
+}
+
+.reg,.log {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-shadow: -4px 4px 19px 0px #00000030;
+}
+
+input {
+    border: 1px solid #bfbaba;
+    width: 90%;
+    outline: none;
+    margin: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    transition: .2s border-color;
+    padding: 15px;
+}
+
+input:hover {
+    border-color: cornflowerblue;
+}
+
+button#enviar,button#enviar2 {
+    text-align: center;
+    margin-top: 5px !important;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    color: #fff;
+    background-color: cornflowerblue;
+    transition: .5s background;
+}
+
+.err {
+    font-size: 11px;
+    height: 11px;
+    font-family: sans-serif;
+    color: #f00;
+    margin-bottom: 5px;
+}
+
+.welcome{
+
+    width: 500px;
+    height: 100%;
+
+}
+#name{
+
+    display: table;
+    margin: auto auto;
+    top: calc(50% - 20px);
+    font-size: 20px;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+.er2 {
+    margin-top: 50px;
+}
+
+button#enviar2 {
+    margin-top: 30px !important;
+}
+
+button#enviar:hover,button#enviar2:hover{
+    background: rgb(75, 120, 202);
+}
+
+div#logo {
+    font-size: 34px;
+    margin-bottom: 20px !important;
+    font-family: sans-serif;
+}
+
+button#lg,button#rg {
+    display: block;
+    width: 150px;
+    left: calc(50% - 75px);
+    position: relative;
+    top: 10px;
+    border: none;
+    background-color: #FFF;
+    color: cornflowerblue;
+    cursor: pointer;
+    outline: none;
+}
